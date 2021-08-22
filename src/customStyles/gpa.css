@@ -1,0 +1,96 @@
+.subject{
+    /* background-color: black; */
+    color: white;
+}
+.center{
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image :linear-gradient(to right, #b80975,#7b09b8);
+}
+.inputFields{
+    display: flex;
+    justify-content: space-around;
+}
+.calc{
+    width: 50vw;
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    background-image :linear-gradient(to right, #561c99,#991c78);
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.GPAheader{
+    text-align: center;
+    border-bottom: solid #a007ad 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.result{
+text-align: center;
+}
+.subname{
+    color: wheat;
+}
+.subcode{
+    color: #088761;
+}
+.credits{
+    color: yellow;
+}
+.gpaheader{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    /* height: 100vh */
+}
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 300px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 300px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 300px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 300px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 300px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}

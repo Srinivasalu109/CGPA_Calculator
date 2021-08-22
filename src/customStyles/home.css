@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.background h3{
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+.background .header{
+    color: yellow;
+}
+.background div{
+    background-color: green;
+    border-radius: 10px;
+     height: 27%;
+     width: 55%; 
+     margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid{
+    color: white;
+    /* font-size: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* Button style */
+ .centerItems{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+  
+/* Ripple effect */
+.centerItems {
+    background-position: center;
+    transition: background 0.8s;
+  }
+ .centerItems:hover {
+    background: #08c224 radial-gradient(circle, transparent 1%,green 1%) center/15000%;
+  }
+  .centerItems:active {
+    background-color: white;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  
+  /* Button style */
+  /* .background div {
+    border: none;
+    border-radius: 2px;
+    padding: 12px 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: #2196f3;
+    box-shadow: 0 0 4px #999;
+    outline: none;
+  } */

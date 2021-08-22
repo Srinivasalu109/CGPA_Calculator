@@ -1,0 +1,76 @@
+.sem{
+    background-color: #cb5ad1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    background-image :linear-gradient(to right, #b80975,#7b09b8);
+    border-radius: 20px;
+    text-align: center;
+}
+.text{
+  height: 20vh;
+  width: 90%;
+}
+.body{
+    width:100vw;
+    /* height:100vh; */
+    background-color: black;
+    color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.year{
+    /* background-color: aqua; */
+    width: 60vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom:6% */
+}
+.year div{
+    display: flex;
+}
+h3{
+    text-align: center;color: green;
+}
+.head{
+    color: yellow;
+    border-bottom:#7b09b8 solid 3px ;
+    text-align: center;
+}
+.container{
+    margin-left: auto;
+margin-right: auto;
+}
+/* Ripple effect */
+.sem {
+  background-position: center;
+  transition: background 0.8s;
+}
+.sem:hover {
+  background: #cb5ad1 radial-gradient(circle, transparent 1%, #cb5ad1 1%) center/15000%;
+}
+.sem:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* Button style */
+/* button {
+  border: none;
+  border-radius: 2px;
+  padding: 12px 18px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #2196f3;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+} */
